@@ -1,0 +1,10 @@
+// Kopiere diese Datei nach wifi_config.h und trage deine eigenen Werte ein.
+// wifi_config.h ist absichtlich NICHT im Repo enthalten (Zugangsdaten!).
+
+#define WLAN_SSID "DeineWlanSSID"
+#define WLAN_PASS "DeinWlanPasswort"
+
+// MQTT-Broker, z.B. dein Home Assistant Mosquitto-Add-on
+#define MQTT_URI "mqtt://192.168.x.x:1883"
+#define MQTT_USERNAME ""
+#define MQTT_PASSWORD ""
